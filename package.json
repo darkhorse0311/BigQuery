@@ -1,5 +1,6 @@
 {
-  "private": true,
+  "private": true, 
+  "version": "1.0.0",
   "scripts": {
     "dev": "prisma generate && next dev",
     "build": "prisma generate && prisma db push && next build",
