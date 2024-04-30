@@ -27,6 +27,7 @@ export default function Form({ type }: { type: "login" | "register" }) {
               setLoading(false);
               toast.error(error);
             } else {
+              setLoading(false);
               router.refresh();
               router.push("/protected");
             }
